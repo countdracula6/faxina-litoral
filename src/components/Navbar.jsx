@@ -1,20 +1,30 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
+  const [open, setOpen] = useState(false)
+
+  const toggleMenu = () => setOpen(!open)
+  const closeMenu = () => setOpen(false)
+
   return (
     <nav className="navbar">
       <div className="logo">
         <span className="faxina">FAXINA</span>
         <span className="litoral">LITORAL</span>
       </div>
-      <ul>
-        <li><Link to="/">Início</Link></li>
-        <li><Link to="/anunciar">Anunciar</Link></li>
-        <li><Link to="/contratar">Contratar</Link></li>
-        <li><Link to="/produtos">Produtos</Link></li>
-        <li><Link to="/contato">Contato</Link></li>
+
+      <button className="burger" onClick={toggleMenu} aria-label="Abrir menu">
+        ☰
+      </button>
+
+      <ul className={`menu ${open ? 'show' : ''}`}>
+        <li><Link to="/" onClick={closeMenu}>Início</Link></li>
+        <li><Link to="/anunciar" onClick={closeMenu}>Anunciar</Link></li>
+        <li><Link to="/contratar" onClick={closeMenu}>Contratar</Link></li>
+        <li><Link to="/produtos" onClick={closeMenu}>Produtos</Link></li>
+        <li><Link to="/contato" onClick={closeMenu}>Contato</Link></li>
       </ul>
     </nav>
-  );
+  )
 }
