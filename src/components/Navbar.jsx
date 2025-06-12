@@ -20,9 +20,9 @@ export default function Navbar() {
 
       <ul className={`menu ${open ? 'show' : ''}`}>
         <li><Link to="/" onClick={closeMenu}>Início</Link></li>
-        <li><Link to="/anunciar" onClick={closeMenu}>Anunciar</Link></li>
-        <li><Link to="/anunciar" onClick={closeMenu}>Como Anunciar</Link></li>
-        <li><Link to="/contratar" onClick={closeMenu}>Como Contratar</Link></li>
+        <li><Link to="/quem-somos" onClick={closeMenu}>Quem Somos</Link></li>
+        <li><Link to="/como-anunciar" onClick={closeMenu}>Como Anunciar</Link></li>
+        <li><Link to="/como-contratar" onClick={closeMenu}>Como Contratar</Link></li>
         <li><Link to="/contato" onClick={closeMenu}>Contato</Link></li>
       </ul>
     </nav>
