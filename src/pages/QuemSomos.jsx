@@ -1,4 +1,5 @@
 import React from 'react'
+import './QuemSomos.css'
 
 export default function QuemSomos() {
   return (
