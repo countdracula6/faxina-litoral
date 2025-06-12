@@ -3,7 +3,7 @@ import './QuemSomos.css'
 
 export default function QuemSomos() {
   return (
-    <section>
+     <section className="quem-somos">
       <h1>Quem Somos – A Plataforma de Limpeza Mais Confiável da Baixada Santista</h1>
 
       <p>
