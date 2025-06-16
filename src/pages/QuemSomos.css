@@ -1,48 +1,49 @@
-/* src/pages/QuemSomos.css */
-
 .quem-somos {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
-  padding: 32px 20px;
-  line-height: 1.7;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Poppins', sans-serif;
   color: #333;
 }
 
 .quem-somos h1 {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  color: #0077b6;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #0c40eb;
+  text-align: center;
 }
 
 .quem-somos h2 {
+  font-size: 1.8rem;
   margin-top: 2rem;
-  font-size: 1.4rem;
-  color: #00b36b;
+  margin-bottom: 1rem;
+  color: #0c40eb;
+}
+
+.quem-somos h3 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #0c40eb;
 }
 
 .quem-somos p {
-  margin-top: 12px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
 }
 
 .quem-somos ul {
-  margin-top: 16px;
-  padding-left: 20px;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-.quem-somos ul li {
-  margin-bottom: 10px;
-}
-
-.quem-somos a {
-  color: #0077b6;
-  font-weight: 500;
-  text-decoration: underline;
-}
-
-.quem-somos .about-cta {
-  font-weight: bold;
-  font-size: 1.2rem;
-  margin-top: 32px;
-  text-align: center;
-  color: #0077b6;
+.quem-somos li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  list-style-type: '✔️ ';
+  padding-left: 0.5rem;
 }
