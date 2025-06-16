@@ -175,20 +175,43 @@ p {
   text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
 }
 
-.city-actions button {
-  margin: 5px;
-  padding: 10px 20px;
-  background-color: #fff;
-  color: #222;
-  border: none;
-  border-radius: 5px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.2s ease;
+.city-actions {
+  display: flex;
+  gap: 10px;
 }
 
-.city-actions button:hover {
-  background-color: #f1f1f1;
+.city-actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* CONTRATAR = green */
+.city-actions button:first-child {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.city-actions button:first-child:hover {
+  background-color: #45a049;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* FAXINAR = orange */
+.city-actions button:last-child {
+  background-color: #FF9800;
+  color: white;
+}
+
+.city-actions button:last-child:hover {
+  background-color: #fb8c00;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 
