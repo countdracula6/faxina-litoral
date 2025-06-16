@@ -1,17 +1,24 @@
+/* src/components/Footer.css */
+
 .footer {
-  background-color: #f2f2f2;
-  color: #333;
+  background-color: #f4f4f4;
   padding: 20px 16px;
   font-size: 0.9rem;
   text-align: center;
   width: 100%;
-  margin-top: 40px;
 }
 
 .footer-content {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
+}
+
+.footer a {
+  color: #0077b6;
+  font-weight: 500;
+  text-decoration: underline;
 }
 
 @media (min-width: 600px) {
@@ -20,11 +27,6 @@
     justify-content: space-between;
     max-width: 900px;
     margin: 0 auto;
+    text-align: left;
   }
-}
-
-.footer a {
-  color: #0077b6;
-  text-decoration: underline;
-  font-weight: 500;
 }
