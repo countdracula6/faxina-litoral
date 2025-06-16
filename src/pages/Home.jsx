@@ -12,7 +12,6 @@ const cities = [
   { name: 'Cubatão', image: '/images/cities/cubatao.png' }
 ]
 
-
 export default function Home() {
   const navigate = useNavigate()
 
@@ -29,6 +28,7 @@ export default function Home() {
             style={{ backgroundImage: `url(${city.image})` }}
           >
             <div className="city-overlay">
+              <h2>{city.name}</h2>
               <div className="city-actions">
                 <button onClick={() => navigate('/contratar')}>CONTRATAR</button>
                 <button onClick={() => navigate('/faxinar')}>FAXINAR</button>
