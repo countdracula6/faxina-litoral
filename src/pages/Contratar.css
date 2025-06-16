@@ -1,0 +1,58 @@
+.contratar {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.contratar h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #0c40eb;
+  text-align: center;
+}
+
+.contratar p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.contratar form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contratar label {
+  font-weight: bold;
+}
+
+.contratar input,
+.contratar select,
+.contratar textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contratar button {
+  background-color: #0c40eb;
+  color: #fff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contratar button:hover {
+  background-color: #072bb5;
+}

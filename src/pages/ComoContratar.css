@@ -1,0 +1,59 @@
+.como-contratar {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.como-contratar h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #0c40eb;
+  text-align: center;
+}
+
+.como-contratar h2 {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #0c40eb;
+}
+
+.como-contratar h3 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #0c40eb;
+}
+
+.como-contratar p {
+  font-size: 1.1rem;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+.como-contratar ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.como-contratar li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  list-style-type: '💡 ';
+  padding-left: 0.5rem;
+}
+
+.como-contratar a {
+  color: #0c40eb;
+  text-decoration: underline;
+}
+
+.como-contratar a:hover {
+  color: #0927a5;
+  text-decoration: none;
+}

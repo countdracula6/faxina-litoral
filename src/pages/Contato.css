@@ -1,0 +1,51 @@
+.contato {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.contato h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #0c40eb;
+  text-align: center;
+}
+
+.contato h2 {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #0c40eb;
+}
+
+.contato p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.contato ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.contato li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  list-style-type: '📍 ';
+  padding-left: 0.5rem;
+}
+
+.contato a {
+  color: #0c40eb;
+  text-decoration: none;
+}
+
+.contato a:hover {
+  text-decoration: underline;
+}

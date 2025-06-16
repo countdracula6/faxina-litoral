@@ -4,6 +4,8 @@ import Home from '../pages/Home'
 import QuemSomos from '../pages/QuemSomos'
 import Faxinar from '../pages/Faxinar'  // ✅ FIXED
 import ComoAnunciar from '../pages/ComoAnunciar'
+import ComoContratar from '../pages/ComoContratar'
+import Contato from '../pages/Contato'
 
 export default function AppRoutes() {
   return (
@@ -12,6 +14,8 @@ export default function AppRoutes() {
       <Route path="/quem-somos" element={<QuemSomos />} />
       <Route path="/faxinar" element={<Faxinar />} />
       <Route path="/como-anunciar" element={<ComoAnunciar />} />
+       <Route path="/como-contratar" element={<ComoContratar />} />
+        <Route path="/contato" element={<Contato />} />
       {/* More routes later like /anunciar, /produtos, etc */}
     </Routes>
   )
