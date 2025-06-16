@@ -1,0 +1,41 @@
+.faxinar-form {
+  padding: 40px 16px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.faxinar-form h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+.faxinar-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.faxinar-form input,
+.faxinar-form textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+}
+
+.faxinar-form button {
+  background-color: #0077b6;
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.faxinar-form button:hover {
+  background-color: #005f8a;
+}

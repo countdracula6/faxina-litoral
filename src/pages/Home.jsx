@@ -26,7 +26,7 @@ export default function Home() {
             <span>{city}</span>
             <div className="city-actions">
               <button onClick={() => navigate('/contratar')}>CONTRATAR</button>
-              <button onClick={() => navigate('/anunciar')}>FAXINAR</button>
+              <button onClick={() => navigate('/faxinar')}>FAXINAR</button>
             </div>
           </div>
         ))}
