@@ -147,63 +147,57 @@ p {
 }
 
 .city-card {
-  background-color: #edf6f9;
-  border: 2px solid #0077b6;
-  border-radius: 8px;
-  padding: 20px;
-  text-align: center;
-  font-weight: 600;
-  font-size: 1rem;
-  transition: transform 0.2s ease;
-}
-
-.city-card span {
-  display: block;
-  font-size: 1.2rem;
-  margin-bottom: 12px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .city-card:hover {
-  transform: translateY(-2px);
+  transform: scale(1.01);
 }
 
-.city-actions {
+.city-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.65), transparent);
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-top: 12px;
-}
-
-@media (min-width: 600px) {
-  .city-actions {
-    flex-direction: row;
-  }
+  align-items: center;
+  gap: 12px;
 }
 
 .city-actions button {
-  flex: 1;
-  padding: 10px;
-  font-size: 0.9rem;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 8px;
   border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  border-radius: 6px;
+  color: white;
   font-weight: bold;
-  transition: all 0.3s ease;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .city-actions button:first-child {
   background-color: #0077b6;
-  color: white;
 }
 
 .city-actions button:last-child {
   background-color: #00b36b;
-  color: white;
 }
 
 .city-actions button:hover {
   opacity: 0.9;
 }
+
 
 /* ==== FOOTER ==== */
 .footer {
