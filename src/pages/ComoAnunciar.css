@@ -1,53 +1,52 @@
 .como-anunciar {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 40px 20px;
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
   font-family: 'Poppins', sans-serif;
   color: #333;
   line-height: 1.6;
 }
 
+.como-anunciar h1,
+.como-anunciar h2,
+.como-anunciar h3 {
+  color: #0c40eb;
+}
+
 .como-anunciar h1 {
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: #b71c1c; /* deep red */
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
 .como-anunciar h2 {
-  font-size: 24px;
-  font-weight: 600;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  color: #444;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.como-anunciar h3 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .como-anunciar p {
-  font-size: 16px;
-  margin-bottom: 16px;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
 }
 
 .como-anunciar ul {
-  margin-left: 20px;
-  padding-left: 0;
-  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-.como-anunciar ul li {
-  margin-bottom: 10px;
-}
-
-@media (max-width: 768px) {
-  .como-anunciar {
-    padding: 20px 15px;
-  }
-
-  .como-anunciar h1 {
-    font-size: 26px;
-  }
-
-  .como-anunciar h2 {
-    font-size: 20px;
-  }
+.como-anunciar li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  list-style-type: '✔️ ';
+  padding-left: 0.5rem;
 }

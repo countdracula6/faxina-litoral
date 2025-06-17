@@ -1,18 +1,24 @@
 .quem-somos {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 2rem;
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 2.5rem;
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
   font-family: 'Poppins', sans-serif;
   color: #333;
+  line-height: 1.6;
+}
+
+.quem-somos h1,
+.quem-somos h2,
+.quem-somos h3 {
+  color: #0c40eb;
 }
 
 .quem-somos h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #0c40eb;
   text-align: center;
 }
 
@@ -20,19 +26,16 @@
   font-size: 1.8rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  color: #0c40eb;
 }
 
 .quem-somos h3 {
   font-size: 1.5rem;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
-  color: #0c40eb;
 }
 
 .quem-somos p {
   font-size: 1.1rem;
-  line-height: 1.7;
   margin-bottom: 1rem;
 }
 

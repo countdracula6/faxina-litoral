@@ -1,48 +1,46 @@
-import React from 'react';
-import './ComoAnunciar.css';
+import React from "react";
+import "./ComoAnunciar.css";
 
 export default function ComoAnunciar() {
   return (
-    <section className="como-anunciar">
+    <div className="como-anunciar">
       <h1>Como Anunciar Seus Serviços de Limpeza</h1>
       <p>
-        Está procurando uma maneira fácil, segura e eficaz de oferecer seus serviços de limpeza na Baixada Santista?
-        O Faxinalitoral conecta profissionais qualificados a famílias, condomínios e empresas de toda a região —
-        incluindo Santos, Praia Grande, Guarujá, Cubatão, São Vicente, Mongaguá, Bertioga e Itanhaém.
+        Anunciar na <strong>FaxinaLitoral</strong> é gratuito, rápido e seguro.
+        Aqui, você encontra oportunidades reais de trabalho em casas, comércios e
+        indústrias que precisam dos seus serviços. Siga os passos abaixo:
       </p>
 
-      <h2>Por que Anunciar no Faxinalitoral?</h2>
-      <ul>
-        <li><strong>100% gratuito:</strong> não cobramos taxa para publicar seu anúncio.</li>
-        <li><strong>Fácil de usar:</strong> basta preencher um formulário com seu nome, localização e tipo de serviço.</li>
-        <li><strong>Alcance regional:</strong> visibilidade para milhares de potenciais clientes na sua cidade.</li>
-        <li><strong>Confiança:</strong> nosso site é seguro e verificado, com boa reputação online.</li>
-        <li><strong>Valorização:</strong> destaque seu perfil com fotos, avaliações e experiências.</li>
-      </ul>
+      <h2>Passo 1 – Crie sua conta</h2>
+      <p>
+        Acesse a página <strong>Faxinar</strong> e preencha seu nome, cidade, e
+        formas de contato. Você pode adicionar serviços oferecidos e disponibilidade.
+      </p>
 
-      <h2>Como Funciona?</h2>
-      <ol>
-        <li>Clique no botão “FAXINAR” na sua cidade.</li>
-        <li>Preencha seu nome, endereço aproximado, telefone, e-mail e tipo de serviço.</li>
-        <li>Seu anúncio é publicado rapidamente e pode ser visualizado por centenas de clientes locais.</li>
-        <li>Clientes interessados entrarão em contato direto com você.</li>
-      </ol>
+      <h2>Passo 2 – Seja encontrado</h2>
+      <p>
+        Com seu perfil publicado, clientes da sua cidade podem entrar em contato.
+        A plataforma conecta quem oferece e quem procura serviços de forma direta.
+      </p>
 
-      <h2>Dicas para se Destacar</h2>
+      <h2>Passo 3 – Combine o serviço e receba</h2>
+      <p>
+        Você negocia diretamente com o cliente, sem intermediários. Trabalhou? Recebeu.
+      </p>
+
+      <h3>Vantagens de anunciar na FaxinaLitoral</h3>
       <ul>
-        <li>Adicione uma boa foto de perfil.</li>
-        <li>Escreva um pequeno texto dizendo por que você é confiável.</li>
-        <li>Seja claro sobre horários e tipos de limpeza que realiza.</li>
+        <li>Totalmente gratuito</li>
+        <li>Sem taxas, sem burocracia</li>
+        <li>Contato direto com o contratante</li>
+        <li>Mais de 200 produtos disponíveis na nossa loja com preços acessíveis</li>
+        <li>Foco na Baixada Santista – mais visibilidade na sua região</li>
       </ul>
 
       <p>
-        No Faxinalitoral, seu trabalho é valorizado. Faça parte da maior plataforma local de serviços de limpeza
-        e conquiste novos clientes hoje mesmo.
+        Pronto para começar? Acesse a aba <strong>Faxinar</strong> agora mesmo
+        e cadastre-se gratuitamente.
       </p>
-
-      <div className="cta-button">
-        <a href="/faxinar">Comece Agora</a>
-      </div>
-    </section>
+    </div>
   );
 }

@@ -1,18 +1,24 @@
 .como-anunciar {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 2rem;
-  background-color: #ffffff;
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
   font-family: 'Poppins', sans-serif;
   color: #333;
+  line-height: 1.6;
+}
+
+.como-anunciar h1,
+.como-anunciar h2,
+.como-anunciar h3 {
+  color: #0c40eb;
 }
 
 .como-anunciar h1 {
   font-size: 2.5rem;
-  margin-bottom: 1.5rem;
-  color: #0c40eb;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
@@ -20,19 +26,16 @@
   font-size: 1.8rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  color: #0c40eb;
 }
 
 .como-anunciar h3 {
   font-size: 1.5rem;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
-  color: #0c40eb;
 }
 
 .como-anunciar p {
   font-size: 1.1rem;
-  line-height: 1.75;
   margin-bottom: 1rem;
 }
 
@@ -44,16 +47,6 @@
 .como-anunciar li {
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
-  list-style-type: '📌 ';
+  list-style-type: '✔️ ';
   padding-left: 0.5rem;
-}
-
-.como-anunciar a {
-  color: #0c40eb;
-  text-decoration: underline;
-}
-
-.como-anunciar a:hover {
-  color: #0927a5;
-  text-decoration: none;
 }

@@ -6,12 +6,12 @@ export default function ComoContratar() {
     <div className="como-contratar">
       <h1>Como Contratar</h1>
       <p>
-        Contratar um serviço de limpeza nunca foi tão simples. Com a plataforma FaxinaLitoral,
+        Contratar um serviço de limpeza nunca foi tão simples. Com a plataforma <strong>FaxinaLitoral</strong>,
         você encontra profissionais qualificados para limpar casas, apartamentos, escritórios e mais,
         em toda a Baixada Santista.
       </p>
 
-      <h2>Passo a passo:</h2>
+      <h2>Passo a passo</h2>
       <ul>
         <li>Escolha sua cidade na página inicial.</li>
         <li>Clique em <strong>CONTRATAR</strong>.</li>
@@ -30,7 +30,7 @@ export default function ComoContratar() {
       </ul>
 
       <p>
-        Conte com a FaxinaLitoral para tornar sua rotina mais leve e seu ambiente sempre limpo.
+        Conte com a <strong>FaxinaLitoral</strong> para tornar sua rotina mais leve e seu ambiente sempre limpo.
       </p>
     </div>
   )

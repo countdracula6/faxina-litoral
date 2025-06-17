@@ -1,0 +1,87 @@
+.navbar {
+  background-color: #227ef5;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.logo {
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 600;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.logo .faxina {
+  color: #fff;
+  margin-right: 0.3rem;
+}
+
+.logo .litoral {
+  color: #ffe600;
+}
+
+.burger {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: opacity 0.3s ease;
+}
+
+.menu li a:hover {
+  opacity: 0.8;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+  }
+
+  .menu {
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #227ef5;
+    width: 100%;
+    display: none;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .menu.show {
+    display: flex;
+  }
+
+  .menu li {
+    margin-bottom: 1rem;
+  }
+
+  .menu li:last-child {
+    margin-bottom: 0;
+  }
+}
