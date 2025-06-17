@@ -10,15 +10,15 @@
 }
 
 .contratar h1 {
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   margin-bottom: 1rem;
   color: #227ef5;
   text-align: center;
 }
 
 .contratar p {
-  font-size: 1.1rem;
-  line-height: 1.7;
+  font-size: 1.2rem;
+  line-height: 1.8;
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -26,40 +26,69 @@
 .contratar form {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1.5rem;
 }
 
 .contratar label {
-  font-weight: bold;
+  font-weight: 600;
   color: #227ef5;
+  font-size: 1.1rem;
 }
 
 .contratar input,
 .contratar select,
 .contratar textarea {
-  padding: 0.8rem;
+  padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-family: 'Poppins', sans-serif;
+  width: 100%;
 }
 
 .contratar input[type="file"] {
   border: none;
-  padding: 0;
+  padding: 0.5rem 0;
 }
 
 .contratar button {
   background-color: #227ef5;
   color: #fff;
-  padding: 0.9rem;
+  padding: 1rem;
   border: none;
   border-radius: 5px;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .contratar button:hover {
-  background-color: #1d6be0;
+  background-color: #1a60c5;
+}
+
+/* Mobile responsive tweaks */
+@media (max-width: 768px) {
+  .contratar {
+    padding: 1.5rem;
+  }
+
+  .contratar h1 {
+    font-size: 2rem;
+  }
+
+  .contratar p,
+  .contratar label {
+    font-size: 1.05rem;
+  }
+
+  .contratar input,
+  .contratar select,
+  .contratar textarea {
+    font-size: 1rem;
+  }
+
+  .contratar button {
+    font-size: 1.05rem;
+    padding: 0.9rem;
+  }
 }
