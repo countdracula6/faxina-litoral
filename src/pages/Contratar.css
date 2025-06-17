@@ -1,4 +1,4 @@
-.contratar {
+.contato {
   max-width: 900px;
   margin: 0 auto;
   padding: 2rem;
@@ -9,85 +9,83 @@
   color: #333;
 }
 
-.contratar h1 {
-  font-size: 2.6rem;
-  margin-bottom: 1rem;
+.contato h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
   color: #227ef5;
   text-align: center;
 }
 
-.contratar p {
+.contato p {
   font-size: 1.2rem;
-  line-height: 1.8;
-  margin-bottom: 1.5rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
-.contratar form {
+.contato form {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.2rem;
 }
 
-.contratar label {
+.contato label {
   font-weight: 600;
   color: #227ef5;
   font-size: 1.1rem;
 }
 
-.contratar input,
-.contratar select,
-.contratar textarea {
+.contato input,
+.contato textarea {
   padding: 1rem;
   border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 1.05rem;
+  border-radius: 6px;
+  font-size: 1.1rem;
   font-family: 'Poppins', sans-serif;
   width: 100%;
 }
 
-.contratar input[type="file"] {
-  border: none;
-  padding: 0.5rem 0;
+.contato textarea {
+  min-height: 140px;
+  resize: vertical;
 }
 
-.contratar button {
+.contato button {
   background-color: #227ef5;
   color: #fff;
   padding: 1rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
   font-size: 1.2rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-.contratar button:hover {
+.contato button:hover {
   background-color: #1a60c5;
 }
 
-/* Mobile responsive tweaks */
+/* Responsive adjustments */
 @media (max-width: 768px) {
-  .contratar {
+  .contato {
     padding: 1.5rem;
   }
 
-  .contratar h1 {
+  .contato h1 {
     font-size: 2rem;
   }
 
-  .contratar p,
-  .contratar label {
+  .contato p,
+  .contato label {
     font-size: 1.05rem;
   }
 
-  .contratar input,
-  .contratar select,
-  .contratar textarea {
+  .contato input,
+  .contato textarea {
     font-size: 1rem;
   }
 
-  .contratar button {
+  .contato button {
     font-size: 1.05rem;
     padding: 0.9rem;
   }
