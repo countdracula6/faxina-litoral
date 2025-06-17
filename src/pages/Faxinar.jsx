@@ -4,35 +4,43 @@ import './Faxinar.css';
 export default function Faxinar() {
   const [formData, setFormData] = useState({
     nome: '',
-    endereco: '',
-    datahora: '',
-    telefone: '',
-    email: '',
-    servico: ''
+    cidade: '',
+    bairro: '',
+    disponibilidade: '',
+    experiencia: '',
+    foto: null,
+    valor: '',
+    data: '',
   });
 
-  const handleChange = e => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+  const handleChange = (e) => {
+    const { name, value, type, files } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: type === 'file' ? files[0] : value,
+    }));
   };
 
-  const handleSubmit = e => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Serviço enviado:', formData);
-    alert('Serviço enviado com sucesso!');
+    console.log(formData);
+    alert("Informações enviadas com sucesso!");
   };
 
   return (
-    <section className="faxinar-form">
-      <h1>Oferecer Serviço de Faxina</h1>
+    <div className="faxinar-form">
+      <h1>Cadastre-se para Faxinar</h1>
       <form onSubmit={handleSubmit}>
-        <input type="text" name="nome" placeholder="Seu nome" required onChange={handleChange} />
-        <input type="text" name="endereco" placeholder="Endereço aproximado" required onChange={handleChange} />
-        <input type="datetime-local" name="datahora" required onChange={handleChange} />
-        <input type="tel" name="telefone" placeholder="WhatsApp" required onChange={handleChange} />
-        <input type="email" name="email" placeholder="Email (opcional)" onChange={handleChange} />
-        <textarea name="servico" maxLength="500" placeholder="Descreva o tipo de serviço (máx 500 caracteres)" required onChange={handleChange} />
-        <button type="submit">Enviar Serviço</button>
+        <input type="text" name="nome" placeholder="Seu nome completo" onChange={handleChange} required />
+        <input type="text" name="cidade" placeholder="Cidade" onChange={handleChange} required />
+        <input type="text" name="bairro" placeholder="Bairro" onChange={handleChange} required />
+        <input type="date" name="data" onChange={handleChange} required />
+        <textarea name="disponibilidade" placeholder="Disponibilidade (dias e horários)" onChange={handleChange} required />
+        <textarea name="experiencia" placeholder="Conte um pouco da sua experiência" onChange={handleChange} />
+        <input type="number" name="valor" placeholder="Valor por hora ou sessão (em R$)" onChange={handleChange} required />
+        <input type="file" name="foto" accept="image/*" onChange={handleChange} />
+        <button type="submit">Enviar</button>
       </form>
-    </section>
+    </div>
   );
 }
